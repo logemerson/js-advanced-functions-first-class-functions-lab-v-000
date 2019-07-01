@@ -3,6 +3,5 @@ const returnFirstTwoDrivers = (function(drivers) {
 })
 
 const returnLastTwoDrivers = (function(drivers) {
-  debugger;
-  return [drivers[-1], drivers[-2]];
+  return [drivers.slice(-1)[0], drivers.slice(-2)[0]];
 })
