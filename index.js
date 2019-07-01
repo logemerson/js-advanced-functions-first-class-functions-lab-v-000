@@ -3,5 +3,6 @@ const returnFirstTwoDrivers = (function(drivers) {
 })
 
 const returnLastTwoDrivers = (function(drivers) {
+  debugger;
   return [drivers[-1], drivers[-2]];
 })
